@@ -126,6 +126,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Simulation.cpp" />
+    <ClCompile Include="SpaceObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simulation.h" />
+    <ClInclude Include="SpaceObject.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
